@@ -1,0 +1,31 @@
+Problem: Semester Marks Averager
+
+You are creating a student portal for your school. The portal needs to display the average marks of a student for 8 semesters. Your task is to write a Java function that takes the marks of each semester individ
+
+Function:
+
+public static double calculateAverage(int sem1, int sem2, int sem3, int sem4, int sem5, int sem6, int sem7, int sem8);
+
+Inputs:
+
+The function calculateAverage(int sem1, int sem2, int sem3, int sem4, int sem5, int sem6, int sem7, int sem8) will receive eight parameters:
+
+- sem1, sem2, sem3, sem4, sem5, sem6, sem7, sem8 : Eight integers each representing the total marks obtained in a semester.
+
+Outputs:
+
+The function will return a double - the average marks over 8 semesters. Round off the result to 2 decimal places.
+
+Example:
+
+Sample Input:
+
+calculateAverage(85, 79, 91, 76, 88, 95, 80, 85);
+
+Sample Output:
+
+84.88
+
+Note:
+
+In the sample input, the marks for the 8 semesters are given. The average of these marks is (85+79+91+76+88+95+80+85)/8 = 84.88. So, the function returns 84.88 as the output. Make sure your function calculates the average correctly to display accurate information on the student portal.

@@ -1,0 +1,45 @@
+Problem: The Temperature Converter
+
+You are working as a software developer at a weather forecasting company. The company is developing a new feature for their app that allows users to convert temperatures from Fahrenheit to Celsius. Your task is to create a method that takes a temperature in Fahrenheit and converts it to Celsius.
+
+Hint: The formula to convert temperature from Fahrenheit to Celsius is:
+
+C = (F - 32) * 5/9
+
+Where:
+
+- C is the temperature in Celsius
+
+- F is the temperature in Fahrenheit
+
+Class Definition:
+
+public class TemperatureConverter {
+
+public double convertFahrenheitToCelsius(double fahrenheit);
+
+}
+
+Inputs:
+
+The method convertFahrenheitToCelsius(double fahrenheit) will receive one parameter:
+
+- fahrenheit : a double representing the temperature in Fahrenheit.
+
+Outputs:
+
+The method will return a double - the temperature converted to Celsius.
+
+Sample Input:
+
+TemperatureConverter temperatureConverter = new TemperatureConverter();
+
+temperatureConverter.convertFahrenheitToCelsius(68.0);
+
+Sample Output:
+
+20.00
+
+Note:
+
+In the sample input, the user's temperature in Fahrenheit is 68.0. The temperature in Celsius is (68 - 32) * 5/9 = 20.00, so the method returns 20.00 as the output. Your method will be crucial in helping users understand the temperature in Celsius. Good luck, developer!
