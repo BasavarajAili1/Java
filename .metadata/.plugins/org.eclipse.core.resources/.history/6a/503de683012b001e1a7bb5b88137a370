@@ -1,0 +1,11 @@
+package sumOfDigits;
+import java.util.Scanner;
+
+public class SumOfSeries {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

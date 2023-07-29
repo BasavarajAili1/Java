@@ -1,0 +1,16 @@
+package palindromeChecker;
+import java.util.Scanner;
+
+public class PalindromeCheckerApp {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int n=scan.nextInt();
+		System.out.println("Enter an Integer N");
+		PalindromeChecker palindrome=new PalindromeChecker();
+		int res=palindrome.palindromecheker(n);
+		System.out.println("The Reversed Number is: "+res);
+
+	}
+
+}

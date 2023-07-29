@@ -1,0 +1,10 @@
+package com.kodnest.patternprograms.level3;
+
+public class Pattern6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

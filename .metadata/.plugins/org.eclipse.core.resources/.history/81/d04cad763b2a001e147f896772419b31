@@ -1,0 +1,12 @@
+package sumOfSeriesCalculator;
+import java.util.Scanner;
+
+public class SumofSeriesCalc {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		
+
+	}
+
+}

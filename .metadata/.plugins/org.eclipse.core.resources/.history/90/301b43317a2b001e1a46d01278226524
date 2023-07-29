@@ -1,0 +1,22 @@
+package armstrongNumberChecker;
+import java.util.Scanner;
+
+public class ArmStrongCheckerApp {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter an Integer to check Armstrong Num or not");
+		int n=scan.nextInt();
+		int orginal=n;
+		ArmStrongChecker ArmStrong=new ArmStrongChecker();
+		int res=ArmStrong.armStrong(n);
+		System.out.println("The Result is "+res);
+		if(n==orginal) {
+			System.out.println("Armstrong number");
+		}
+		else {
+			System.out.println("Not an Armstrong");
+		}
+	}
+
+}
