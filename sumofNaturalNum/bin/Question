@@ -1,0 +1,5 @@
+Print the sum of N natural numbers where N is an integer input by the user.
+
+Problem: We are given a positive integer N by the user. Our task is to calculate the sum of the first N natural numbers and print it out. Natural numbers are simply numbers that you naturally count, i.e., 1, 2, 3, and so on.
+
+For example, if N is 5, we want to calculate the sum 1+2+3+4+5, which equals 15.

@@ -1,0 +1,11 @@
+Problem Statement : Multiple of Ten Checker
+
+Question Description: Create a program that checks if a number is a multiple of 10. The program should accept an integer 'n' as input.
+
+Boiler Plate Code:
+
+public class Main { public static void checkMultipleOfTen(int n) { // your code here } public static void main(String[] args) { } }
+
+Sample Input: 20
+
+Sample Output: The number is a multiple of 10.

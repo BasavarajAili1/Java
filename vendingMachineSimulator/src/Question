@@ -1,0 +1,29 @@
+Vending Machine Simulator
+
+Question Description: Create a program that simulates a vending machine. The program should take a product code as input and output the product name.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void getProduct(String productCode)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+}
+
+}
+
+Sample Input: "P01"
+
+Sample Output: "Coca Cola"

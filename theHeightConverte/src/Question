@@ -1,0 +1,39 @@
+**Problem: The Height Converter**
+
+You are part of a sports data management team. The team is developing a new feature for their application where the heights of players, currently recorded in inches, need to be displayed in feet for an international audience. Your task is to create a method that takes a height given in inches and converts it into feet.
+
+**Hint:** The conversion factor from inches to feet is 1 foot = 12 inches.
+
+**Class Definition:**
+
+public class HeightConverter {
+
+public double convertInchesToFeet(double inches);
+
+}
+
+**Inputs:**
+
+The method convertInchesToFeet(double inches) will receive one parameter:
+
+- inches (0 ≤ inches ≤ 10^9): a double representing the height in inches.
+
+**Outputs:**
+
+The method will return a double - the height converted to feet.
+
+**Example:**
+
+**Sample Input:**
+
+HeightConverter converter = new HeightConverter();
+
+converter.convertInchesToFeet(72.0);
+
+**Sample Output:**
+
+6.00
+
+**Note:**
+
+In the sample input, the height of the player is 72.0 inches. The height in feet is 72/12 = 6.00, so the method returns 6.00 as the output. Your method will be crucial in helping the sports data management team present the data in a format familiar to the international audience. Good luck, data manager!

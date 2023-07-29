@@ -1,0 +1,10 @@
+package characterExamples;
+
+public class CharExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+Write a java program to print the numbers according to the below requirement from 1 to n, where n > 100.
+
+1. Display all numbers divisible
+
+2. Display all numbers divisible by 3
+
+3. Display all numbers divisible by 5
+
+4. Display all numbers divisible by 2 and 5
+
+5. Display all numbers divisible by 3 and comes in table of 5
+
+6. Display all prime numbers
+
+7. Display all even numbers divisible by 3
+
+8. Display all odd numbers divisible by 5
+
+9. Display all even prime numbers

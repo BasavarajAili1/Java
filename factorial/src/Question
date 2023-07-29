@@ -1,0 +1,7 @@
+Print the factorial of a number.
+
+Problem: We're given an integer 'N' by the user. Our task is to calculate the factorial of this number and print it. The factorial of a number is the product of all positive integers up to that number.
+
+For example, the factorial of 5 (denoted as 5!) is 1 * 2 * 3 * 4 * 5 = 120.
+
+Approach: To find the factorial, we'll start with a product of 1 (since multiplying by 1 doesn't change a number) and then multiply it by every number from 1 to N.

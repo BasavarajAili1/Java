@@ -1,0 +1,12 @@
+package printingNumbers;
+import java.util.Scanner;
+//2. Display all numbers divisible by 3 comes in table of 5 
+//And Enter n>100 as per the Question
+public class Solution5 {
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+Problem Statement 5: Age Categorizer
+
+Question Description: Create a program that categorizes people based on their age: Child (0-12), Teen (13-19), Adult (20-59), Senior (60+). The program should accept an integer 'age' as input.
+
+Boiler Plate Code:
+
+public class Main { public static void categorizeAge(int age) { // your code here } public static void main(String[] args) { categorizeAge(25); } }
+
+Sample Input: 25
+
+Sample Output: Adult

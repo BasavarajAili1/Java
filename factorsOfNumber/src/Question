@@ -1,0 +1,5 @@
+Print all the factors of a number.
+
+Problem: We're given an integer 'N' by the user. Our task is to print all factors of this number. Factors are numbers that divide evenly into another number. For example, the factors of 10 are 1, 2, 5, and 10 because these numbers divide 10 without leaving a remainder.
+
+Approach: We'll use a loop that runs from 1 to N. For each number in this range, we'll check if it is a factor of N (i.e., if N divided by the number leaves no remainder). If it is, we print it out.
