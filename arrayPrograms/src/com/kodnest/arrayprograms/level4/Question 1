@@ -1,0 +1,6 @@
+Merge elements of 2 arrays into a 3rd array:
+
+Problem: We have two arrays, and we want to combine them into a third array.
+
+Approach: We will create a third array that has a size equal to the sum of the sizes of the first two arrays. 
+		  We'll then copy all elements from the first array to the third array, and then continue where we left off by copying all elements from the second array to the third array.

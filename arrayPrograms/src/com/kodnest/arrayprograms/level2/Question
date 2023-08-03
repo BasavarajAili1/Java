@@ -1,0 +1,9 @@
+1) Print Positive
+Write a java program to take array length as input from user and create an integer array
+Create an integer array and store elements into the array by taking elements as input from keyboard.
+Print the array contents on to console if array content is positive.
+
+2)
+Write a java program to take array length as input from user and create an integer array.
+Take elements from user and store elements into the array.
+Call a method printArray present in PrintArray class which will print the array in forward direction and in reverse direction.

@@ -1,0 +1,6 @@
+Calculate the sum of all elements in an integer array:
+
+Problem: We're given an array of integers, and we want to find the sum of all its elements.
+
+Approach: We will iterate through the array and add each element to a "sum" variable. 
+		  By the time we've looked at every element in the array, our "sum" variable will contain the total sum of all elements in the array.
