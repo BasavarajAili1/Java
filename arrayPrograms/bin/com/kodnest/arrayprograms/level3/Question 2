@@ -1,0 +1,14 @@
+Copy all elements of one array into another array:
+
+Problem: We're given an array, and we need to create a new array that contains all the elements of the original array.
+
+Approach: We will iterate through the given array and copy each element to the new array at the same index. The new array will be of the same size as the original array.
+
+Boiler Plate Code:
+
+Class CopyArray
+{
+//main method and rest of the code.
+}
+
+

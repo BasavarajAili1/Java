@@ -1,0 +1,27 @@
+=====ArraySearch=====
+
+Check whether an element is present in an array or not (linear search):
+
+Problem: We're given an array of numbers and a specific number called the "target."
+		 Our task is to determine whether this target number is present within our array or not.
+
+Approach: Here's a simple way we could solve this problem. 
+		  We'll start at the beginning of our array and check each element one by one to see if it's the same as our target number. 
+		  This process is known as linear search - think of it as taking a magnifying glass and going down the line of our array, examining each number closely. 
+		  If we find a match, we can immediately say that the target is indeed present in the array. 
+          If we get to the end of the array without finding the target, then it's safe to say the target is not present in the array.
+
+public class ArraySearch
+{
+public static void main(String[] args)
+{
+//Complete code here
+}
+}
+
+Class Search
+{
+Public boolean isPresent(int target)
+{
+//Complete code here
+}

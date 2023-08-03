@@ -1,8 +1,0 @@
-package armstrongNumberChecker;
-
-public class ArmStrongChecker {
-	public int armStrong(int n) {
-
-	}
-
-}
