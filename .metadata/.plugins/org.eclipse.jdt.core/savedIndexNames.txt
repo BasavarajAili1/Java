@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+E:\Basu Docs\KODNEST\saturdaymarathon\.metadata\.plugins\org.eclipse.jdt.core
-3821839616.index
-1848055375.index
-1865797976.index
-2589444369.index
-3413725848.index
