@@ -10,5 +10,4 @@ public class RemoveNegativeNum {
 		}
 		return arr;
 	}
-
 }

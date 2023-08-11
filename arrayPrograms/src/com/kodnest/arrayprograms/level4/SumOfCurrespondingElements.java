@@ -9,5 +9,4 @@ public class SumOfCurrespondingElements {
 		}
 		return arr3;
 	}
-
 }

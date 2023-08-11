@@ -25,5 +25,4 @@ public class Question2Solution {
 		System.out.println("Sum of Array elements is: "+res);
 	
 	}
-
 }

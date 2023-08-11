@@ -15,6 +15,5 @@ public class MergeArrayApp {
 			res[size1+i]=arr2[i];
 		}
 		 return res;
-
 	}
 }

@@ -40,5 +40,4 @@ public class Question1Solution {
 			System.out.print(x+" ");
 		}
 	}
-
 }

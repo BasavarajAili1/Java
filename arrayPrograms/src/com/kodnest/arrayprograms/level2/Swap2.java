@@ -8,7 +8,7 @@ public class Swap2 {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter the length of the array");
 		int arr[]=new int[scan.nextInt()];
-		System.out.println("Enter the "+arr.length+" elemets of array");
+		System.out.println("Enter the "+arr.length+" elements of array");
 		
 		for(int i=0;i<=arr.length-1;i++)
 		{

@@ -27,7 +27,5 @@ public class Question4Solution {
 		for(int x: res) {
 			System.out.print(x+" ");
 		}
-
 	}
-
 }
