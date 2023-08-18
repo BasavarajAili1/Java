@@ -1,0 +1,5 @@
+Factorial Sum
+
+Scenario: Mia wants to find the sum of factorials of numbers from 1 to a given positive integer. She needs a program that calculates and displays this sum.
+
+Hint: Mia should create a variable to keep track of the sum. Then, she should use a `for` loop to iterate through the numbers from 1 to the given positive integer. Within the loop, Mia can calculate the factorial of the current number using another `for` loop or a recursive function. After obtaining the factorial, she should add it to the sum. Finally, Mia can display the calculated sum.

@@ -1,0 +1,7 @@
+Perfect Number Checker
+
+Scenario: Oliver is fascinated by perfect numbers, which are positive integers that are equal to the sum of their proper divisors (excluding the number itself). He needs a program that checks if a given number is a perfect number.
+
+Hint: Oliver can create a helper function to find the sum of divisors for a given number. Then, he should use a `for` loop to iterate through the numbers from 1 to half of the input number (since divisors won't
+
+exceed half of the number). Inside the loop, Oliver can check if the current number is a divisor and add it to the sum. After the loop, he should compare the sum with the input number to determine if it's a perfect number.

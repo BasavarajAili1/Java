@@ -1,0 +1,5 @@
+Divisor Counter
+
+Scenario: Liam is interested in counting the number of divisors for a given positive integer. He needs a program that calculates and displays the count of divisors for the input number.
+
+Hint: Liam should initialize a counter variable to keep track of the number of divisors. Then, he can use a `for` loop to iterate through the numbers from 1 to the input positive integer. Inside the loop, Liam should check if the current number divides the input number evenly (i.e., there's no remainder). If it does, Liam should increment the counter. Finally, he can display the count of divisors

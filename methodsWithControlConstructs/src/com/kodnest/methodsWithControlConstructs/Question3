@@ -1,0 +1,5 @@
+Prime Range Finder
+
+Scenario: Emily wants to find prime numbers within a specified range. She needs a program that takes two positive integers as input and displays all prime numbers between those two numbers.
+
+Hint: Emily can create a helper function to check if a given number is prime. Then, she should use a `for` loop to iterate through the numbers within the specified range. Inside the loop, Emily can call the helper function to determine if the current number is prime. If it is, she can display the prime number.
