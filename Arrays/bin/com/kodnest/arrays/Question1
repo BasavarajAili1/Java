@@ -1,0 +1,5 @@
+Counting Grades
+
+The teacher wants to analyze the grades of a class. Write a Java program that takes an array of student grades (ranging from 0 to 100) and counts how many students scored above 75.
+
+Hint :Use a loop to iterate through the array. For each grade, check if it's above 75 and increment a counter accordingly.

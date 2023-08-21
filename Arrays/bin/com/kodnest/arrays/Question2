@@ -1,0 +1,5 @@
+Temperature Records
+
+A weather station records the daily temperatures for a week. Write a Java program that takes an array of temperatures and calculates the average temperature.
+
+Hint :Sum up all temperatures using a loop, then divide the sum by the number of temperatures to find the average.
