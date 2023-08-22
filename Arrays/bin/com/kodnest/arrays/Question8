@@ -1,0 +1,5 @@
+Finding Prime Numbers
+
+Hannah is fascinated by prime numbers. She wants to identify the prime numbers in a list. Write a Java program to help Hannah find the prime numbers in an array.
+
+Hint:Loop through the array and for each number, check if it's prime. A prime number has no divisors other than 1 and itself.

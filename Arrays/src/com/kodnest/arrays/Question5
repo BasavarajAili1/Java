@@ -1,0 +1,5 @@
+Sum of Positive Numbers
+
+Emma is working on a personal finance app. She wants to calculate the total income from positive transactions. Write a Java program that takes an array of transaction amounts and calculates the sum of positive amounts.
+
+Hint: Loop through the array, and if a transaction amount is positive, add it to a sum variable.

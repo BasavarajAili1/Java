@@ -1,0 +1,5 @@
+Multiplying Elements
+
+Grace is exploring multiplication. She wants to find the product of all elements in an array. Write a Java program to help Grace calculate the product of elements in an array.
+
+Hint:Initialize a variable to store the product. Loop through the array and multiply each element with the product.

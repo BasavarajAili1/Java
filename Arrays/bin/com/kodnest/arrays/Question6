@@ -1,0 +1,5 @@
+Counting Odd Numbers
+
+Ethan is curious about odd numbers. He wants to count the number of odd numbers in a list. Write a Java program to help Ethan count the odd numbers in an array.
+
+Hint:Loop through the array and for each number, check if it's odd using the modulo operator (%).

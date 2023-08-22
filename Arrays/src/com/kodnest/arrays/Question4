@@ -1,0 +1,5 @@
+Identifying Even Numbers
+
+Bob has a list of numbers, and he wants to know how many of them are even. Write a Java program to count the number of even numbers in an array.
+
+Hint: Loop through the array and for each number, check if it's even using the modulo operator (%).

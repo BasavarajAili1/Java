@@ -1,0 +1,5 @@
+Checking for Duplicates
+
+Olivia wants to ensure there are no duplicate elements in a list. Write a Java program to help Olivia check if an array contains any duplicate elements.
+
+Hint: Use nested loops to compare each element with every other element. If two elements are the same, indicate that duplicates are present.
