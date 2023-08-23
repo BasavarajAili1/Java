@@ -1,0 +1,57 @@
+Guess the Number Game
+
+Scenario: Carol is enthusiastic about creating a "Guess the Number" game in Java. She envisions a program that generates a random number between 1 and 100, where the player must continue guessing until they accurately identify the chosen number. The program should supply hints like "too high" or "too low" to guide the player.
+
+Carol seeks your help in developing the "Guess the Number" game. You are required to guide her through the process of constructing the game mechanics using Java programming concepts.
+
+Scenario Details:
+
+- The program should:
+
+- Generate a random number between 1 and 100 using the `java.util.Random` class.
+
+- Prompt the player to enter a number and provide feedback, such as "too high" or "too low," after each incorrect guess.
+
+- Continue the game until the player correctly guesses the number.
+
+Hints:
+
+1. Random Number Generation:
+
+- Use the `java.util.Random`class to generate random numbers. Create an instance of the `Random` class and call the `nextInt(int bound)` method to get a random number within a specified range.
+
+2. Loop Structure:
+
+- Implement a loop, such as a `while` loop, to keep prompting the player for guesses until the correct number is guessed.
+
+3. Player Input and Hints:
+
+- Use the `java.util.Scanner` class to receive player inputs.
+
+- Compare the player's guess with the generated random number.
+
+- Provide hints like "too high" or "too low" to guide the player towards the correct guess.
+
+Sample Output:
+
+----------------------------------
+
+Welcome to the Guess the Number Game!
+
+I have selected a random number between 1 and 100. Try to guess it!
+
+Enter your guess: 50
+
+Too low! Try again.
+
+Enter your guess: 75
+
+Too high! Try again.
+
+Enter your guess: 62
+
+Too high! Try again.
+
+Enter your guess: 56
+
+Congratulations! You guessed the number 56! It took you 4 attempts.
