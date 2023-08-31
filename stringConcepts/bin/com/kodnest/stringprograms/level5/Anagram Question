@@ -1,0 +1,11 @@
+Write a java Program to check if enetered 2 strings is anagram or not.
+
+Eg:CAT
+
+ACT
+
+Are anagram
+
+Eg2:RAMA
+
+AMAR

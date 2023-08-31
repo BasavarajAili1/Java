@@ -10,7 +10,6 @@ public class UnicodePrinter {
 		System.out.println(s1);
 		unicodePrinter(s1);
 
-
 	}
 	public static void unicodePrinter(String s1) {
 		for(int i=0;i<=s1.length()-1;i++) {

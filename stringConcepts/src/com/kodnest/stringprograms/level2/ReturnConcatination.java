@@ -11,7 +11,7 @@ public class ReturnConcatination {
 		String s2=new String(scan.next());
 		String concat=concatinate(s1, s2);
 		if(concat!=null) {
-			System.out.println("Concatinated String is: "+concat);
+			System.out.println("Concatenated String is: "+concat);
 		}
 		else {
 			System.out.println("Strings are not same to Concat!");
@@ -25,5 +25,4 @@ public class ReturnConcatination {
 		}
 		return null;
 	}
-
 }

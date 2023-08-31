@@ -1,0 +1,29 @@
+Display All Substrings of a Given String
+
+Question Topic:
+
+String Manipulation - Displaying Substrings
+
+Problem Statement:
+
+You are creating a tool for a text processing application that requires displaying all possible substrings of a given input string. Your task is to write a function that takes an input string and prints all its substrings.
+
+Sample Input 1:
+
+"abc"
+
+Sample Output 1:
+
+a, b, c, ab, bc, abc
+
+Sample Input 2:
+
+"AI"
+
+Sample Output 2:
+
+A, I, AI
+
+Question Elaborated Explanation:
+
+A substring is a contiguous sequence of characters within a string. For a given string of length n, there are n(n+1)/2 substrings. Your task is to display all these substrings.

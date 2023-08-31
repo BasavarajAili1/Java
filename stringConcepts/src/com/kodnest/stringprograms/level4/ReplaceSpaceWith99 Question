@@ -1,0 +1,29 @@
+Replace Space with 99
+
+Question Topic:
+
+String Manipulation - Replacing Characters
+
+Problem Statement:
+
+A new data format requires you to write a method that replaces all spaces in a given string with the characters "99." This transformation will make the text compatible with a specific parsing system.
+
+Sample Input 1:
+
+"Welcome to the future"
+
+Sample Output 1:
+
+"Welcome99to99the99future"
+
+Sample Input 2:
+
+"Open AI rocks"
+
+Sample Output 2:
+
+"Open99AI99rocks"
+
+Question Elaborated Explanation:
+
+The task here is to replace all spaces in the given input string with the characters "99." This transformation is common in systems where spaces are used as delimiters, and an alternative representation is required to handle spaces within the actual data.

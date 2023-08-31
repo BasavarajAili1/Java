@@ -1,0 +1,27 @@
+Remove Duplicates from a String
+
+Removing Duplicate Characters from a String
+
+Problem Statement:
+
+Imagine you are working on a text processing system that needs to remove any redundant characters from given text strings. This feature will be used to create cleaner text for documents, emails, and user input. Write a function that takes a string and returns a new string with all duplicate characters removed, preserving only the first occurrence of each character.
+
+Sample Input 1:
+
+"programming"
+
+Sample Output 1:
+
+"progamin"
+
+Sample Input 2:
+
+"apple"
+
+Sample Output 2:
+
+"aple"
+
+Question Elaborated Explanation:
+
+Removing duplicates from a string is a common operation in text processing applications, like search engines, data cleaning, and document formatting. This task involves scanning a string and removing any character that has been seen before, preserving the original order of the characters.

@@ -11,5 +11,4 @@ public class UpperLowerCounterApp {
 		UpperLowerCounter countUpperlower=new UpperLowerCounter();
 		countUpperlower.countUpperLower(str);
 	}
-
 }

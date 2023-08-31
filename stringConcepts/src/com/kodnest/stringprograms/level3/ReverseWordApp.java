@@ -15,5 +15,4 @@ public class ReverseWordApp {
 		System.out.println("Reversed String is: "+RevString);
 
 	}
-
 }

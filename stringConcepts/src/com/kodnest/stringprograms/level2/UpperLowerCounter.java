@@ -16,5 +16,4 @@ public class UpperLowerCounter {
 		System.out.println("UPPERCASE COUNT: "+ucount);
 		System.out.println("LOWERCASE COUNT: "+lcount);
 	}
-
 }

@@ -15,5 +15,4 @@ public class LowerToUpperCase {
 static String convertLowerToUpper(String str) {
 		return str.toUpperCase();
 	}
-
 }
