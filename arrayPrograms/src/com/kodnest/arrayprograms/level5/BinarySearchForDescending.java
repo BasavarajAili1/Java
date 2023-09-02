@@ -1,29 +1,27 @@
 package com.kodnest.arrayprograms.level5;
 
-public class Demo1App {
+public class BinarySearchForDescending {
 	int binarySearchDec(int arr[], int key){
-		int low=arr[0];
-		int high=arr[arr.length-1];
-		int mid=0;
-		arr[mid]=(low+high)/2;
+		int low=0;
+		int high=arr.length-1;
 
 		while (low<=high) {
-			arr[mid]=(low+high)/2;
+			int mid=(low+high)/2;
 
 			if(key==arr[mid]) {
-				return arr[mid];
+				return mid;
 			}
 
 			else if (key>arr[mid]) {
-				high=arr[mid]-1;
+				high=mid-1;
 				low=low;
 				
 			}
 			else {
-				low=arr[mid]+1;
+				low=mid+1;
 				high=high;
 			}
 		}
-		return 0;
+		return -1;
 	}
 }

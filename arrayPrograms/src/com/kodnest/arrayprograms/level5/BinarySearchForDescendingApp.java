@@ -1,7 +1,7 @@
 package com.kodnest.arrayprograms.level5;
 import java.util.Scanner;
 
-public class Demo1 {
+public class BinarySearchForDescendingApp {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
@@ -14,22 +14,21 @@ public class Demo1 {
 		
 		System.out.print("Array elements are===> ");
 		for(int x: arr) {
-			System.out.println(x+" ");
+			System.out.print(x+" ");
 		}
+		System.out.println();
 		
 		System.out.println("Enter key to search");
 		int key=scan.nextInt();
 		
-		Demo1App search=new Demo1App();
+		BinarySearchForDescending search=new BinarySearchForDescending();
 		int res=search.binarySearchDec(arr, key);
 		
-		if(res==key) {
-			System.out.println("Key found");
+		if(res>=0) {
+			System.out.println("Key found at Index "+res);
 		}
 		else {
 			System.out.println("Key not found");
 		}
-
 	}
-
 }

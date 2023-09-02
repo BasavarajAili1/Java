@@ -2,7 +2,7 @@ package com.kodnest.arrayprograms.level5;
 
 import java.util.Scanner;
 //Binary searching approach (Works when array is in Ascending order)
-public class Demo {
+public class BinarySearchForAscendingApp {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
@@ -22,11 +22,11 @@ public class Demo {
 		System.out.println("Enter key to search in array");
 		int key=scan.nextInt();
 
-		DemoApp search=new DemoApp();
+		BinarySearchForAscending search=new BinarySearchForAscending();
 		int res=search.search(arr, key);
 
-		if (res==key) {
-			System.out.print("Key Found");
+		if (res>=0) {
+			System.out.print("Key Found at Index "+res);
 		}
 		else {
 			System.out.println("Key Not Found");
