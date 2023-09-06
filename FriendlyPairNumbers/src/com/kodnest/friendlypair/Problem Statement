@@ -1,0 +1,11 @@
+Friendly Pair Numbers Identifications
+
+You are assigned the task of developing a Java program that determines whether two given numbers are friendly pair numbers or not. 
+Write a Java program that takes two integers as input and checks whether they form a friendly pair or not. Friendly pair numbers are a pair of integers (a, b) such that the sum of proper divisors of
+
+'a' is equal to 'b' and the sum of proper divisors of 'b' is equal to 'a'.
+
+Description:
+
+Friendly pair numbers (also known as amicable or friendly numbers) are two distinct numbers that share a special relationship.
+The sum of proper divisors (Factors excluding the number itself) of each number is equal to the other number. For example, the pair (220, 284) is a friendly pair because the sum of proper divisors of 220 is 284, and the sum of proper divisors of 284 is 220.
