@@ -15,7 +15,7 @@ public class Solution5 {
 		}
 		
 		int sum = sumOfPosTransactions(arr);
-		System.out.println("Total income from positive trasactions-> "+sum);
+		System.out.println("Total income from positive transactions-> "+sum);
 	}
 	public static int sumOfPosTransactions(int[] arr) {
 		int sum=0;

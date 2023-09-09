@@ -47,7 +47,5 @@ public class Solution8 {
 		else {
 			return num;
 		}
-
 	}
-
 }

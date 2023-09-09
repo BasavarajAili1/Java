@@ -13,7 +13,7 @@ public class Solution2 {
 		}
 		System.out.println();
 		double average=averageFinder(arr);
-		System.out.printf("Average Temperatue: %.2f",average);
+		System.out.printf("Average Temperature: %.2f",average);
 	}
 
 	static double averageFinder(double[] arr) {
@@ -24,6 +24,5 @@ public class Solution2 {
 		}
 		average=sum/arr.length;
 		return average;
-
 	}
 }

@@ -43,5 +43,4 @@ public class Solution10 {
 		}
 		return -1;
 	}
-
 }
