@@ -1,0 +1,50 @@
+package com.ArrayDSA.leetcode.easy;
+
+public class ShuffleTheArray {
+
+	public static void main(String[] args) {
+		int[] nums = {2,5,1,3,4,7};
+		int n = nums.length / 2;
+		shuffle(nums, n);
+		
+
+	}
+	static int[] shuffle(int[] nums, int n) {
+        int[] firstArr = new int[n];
+        int[] secArr = new int[n];
+        int[] res = new int[nums.length];
+        for(int i=0;i<n;i++) {
+        	firstArr[i] = nums[i];
+        }
+        int j = 0;
+        for(int i=n;i<=nums.length-1;i++) {
+        	secArr[j] = nums[i];
+        	j++;
+        }
+        
+//        for (int x: firstArr){
+//        	System.out.print(x+" ");
+//        }
+//        for (int x: secArr){
+//        	System.out.print(x+" ");
+//        }
+        int k = 0;
+        for(int i=0;i<=firstArr.length-1;i++) {
+        	
+        	res[k] = firstArr[i];
+        	k = k+2;
+        }
+        k = 1;
+//        for(int i=0;i<=secArr.length-1;i++) {
+//        	
+//        	res[k] = firstArr[i];
+//        	k = k+2;
+//        }
+        
+        for(int x: res) {
+        	System.out.print(x+" ");
+        }
+		return nums;
+    }
+
+}

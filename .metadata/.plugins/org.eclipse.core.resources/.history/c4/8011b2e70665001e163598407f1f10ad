@@ -1,0 +1,5 @@
+package com.kodnest.inheritance;
+
+public class Demo2 extends Demo1 {
+
+}

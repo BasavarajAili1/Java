@@ -19,7 +19,7 @@ public class BubbleSortAppDec {
 		}
 		System.out.println();
 
-		SortDescending sort=new SortDescending();
+		BubbleSortDec sort=new BubbleSortDec();
 		sort.bubbleSorting(arr);// Descending order
 
 		System.out.print("Array elements after sorting===> ");

@@ -6,7 +6,7 @@ public class Student1 {
 	private int marks;
 	private String gender;
 	
-	// Constructor instead of setter
+	// Constructor instead of setters
 	public Student1(int id, String name, int marks, String gender ) {
 		this.id = id;
 		this.name = name;

@@ -1,0 +1,23 @@
+package practiceHere;
+
+// return the array of int that are not divisible by k and k's prime factors
+public class ArrayDivisiblebyK {
+
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, 30, 60, 7, 8};
+		int k = 15;
+		int[] res = null;
+		
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i] % 15 != 0 || arr[i] % 3 != 0 || arr[i] % 5 != 0 ) {
+				res[i] = arr[i];
+			}
+		}
+		
+		for(int x: res) {
+			System.out.print(x);
+		}
+
+	}
+
+}

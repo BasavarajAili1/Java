@@ -1,0 +1,13 @@
+package com.kodnest.inheritance;
+
+public class PersonApp {
+
+	public static void main(String[] args) {
+		EnggStudent es = new EnggStudent();
+		BComStudent bs = new BComStudent();
+		JavaTeacher jt = new JavaTeacher();
+		TestingTeacher ts = new TestingTeacher();
+		
+		System.out.println(es.name+" "+bs.name+" "+jt.name+" "+ts.name);
+	}
+}

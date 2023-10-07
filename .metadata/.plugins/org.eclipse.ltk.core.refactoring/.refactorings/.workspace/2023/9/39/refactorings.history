@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ArraysBootcamp&apos; to &apos;DSABootcampArrays&apos;" description="Rename resource &apos;ArraysBootcamp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ArraysBootcamp" name="DSABootcampArrays" stamp="1696091248330" updateReferences="true"/>
+</session>

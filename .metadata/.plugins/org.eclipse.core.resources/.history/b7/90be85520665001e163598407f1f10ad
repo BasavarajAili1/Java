@@ -1,0 +1,10 @@
+package com.kodnest.inheritance;
+
+public class Demo extends Demo1, Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.kodnest.inheritance;
+
+public class EmployeeApplication {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.name = "Sharath";
+		employee.sallary = 250000;
+		employee.work();
+	}
+
+}

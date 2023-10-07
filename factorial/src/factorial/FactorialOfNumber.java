@@ -12,7 +12,5 @@ public class FactorialOfNumber {
 			fact=fact*i;
 		}
 		System.out.println("Factorial is "+fact);
-
 	}
-
 }

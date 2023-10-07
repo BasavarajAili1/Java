@@ -1,0 +1,25 @@
+package com.ArrayDSA.leetcode.easy;
+
+public class BuildArraysFromPermutations {
+
+	public static void main(String[] args) {
+		int[] nums = {5,0,1,2,3,4};
+		int[] ans = buildArrays(nums);
+		for(int x: ans) {
+			System.out.print(x+",");
+		}
+
+	}
+	static int[] buildArrays(int[] nums) {
+		
+		int[] ans = new int[nums.length];
+		for (int i=0;i<=ans.length-1;i++) {
+			ans[i] = nums[nums[i]];
+		}
+		return ans;
+	}
+
+
+}
+
+

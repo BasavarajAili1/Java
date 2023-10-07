@@ -17,5 +17,4 @@ public class Main {
 		int n=scan.nextInt();
 		checkMultipleOfTen(n);
 	}
-
 }

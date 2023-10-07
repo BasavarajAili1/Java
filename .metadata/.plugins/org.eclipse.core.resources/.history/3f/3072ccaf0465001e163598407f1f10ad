@@ -1,0 +1,22 @@
+package com.kodnest.inheritance;
+
+public class EmployeeApplication {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.name = "Sharath";
+		employee.sallary = 25000;
+		System.out.println(employee.name+" --> "+employee.sallary);
+		employee.work();
+		System.out.println();
+		
+		Manager manager = new Manager();
+		manager.name = "Akhil";
+		manager.sallary = 200000;
+		System.out.println(manager.name+" --> "+manager.sallary);
+		manager.work();
+		System.out.println();
+		
+	}
+
+}

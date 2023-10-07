@@ -1,0 +1,14 @@
+package com.kodnest.problemsBinarySeacrh;
+
+// Find first and last position of target element
+public class FirstANDLastPos {
+
+	public static void main(String[] args) {
+		int[] arr = {5, 7, 7, 7, 8, 8, 10};
+		int target = 7;
+		
+		
+
+	}
+
+}

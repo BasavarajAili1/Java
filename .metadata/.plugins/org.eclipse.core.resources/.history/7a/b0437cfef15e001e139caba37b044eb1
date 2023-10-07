@@ -1,0 +1,30 @@
+package com.kodnest.problemsBinarySeacrh;
+
+// Find first and last position of target element
+public class FirstANDLastPos {
+
+	public static void main(String[] args) {
+		int[] arr = {5, 7, 7, 7, 8, 8, 10};
+		int target = 7;
+		
+		int[] res = findFirstLast(arr, target);
+
+	}
+	static int[] findFirstLast(int[] arr, int target) {
+		//apply binary search
+		
+		int start = 0;
+		int end = arr.length-1;
+		
+		while(start <= end) {
+			int mid = start+(end-start)/2;
+			
+			if(arr[mid] == target) {
+				end = mid - 1;
+				
+			}
+		}
+		return arr;
+	}
+
+}

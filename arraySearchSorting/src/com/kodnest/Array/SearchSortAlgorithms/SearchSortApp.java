@@ -56,7 +56,5 @@ public class SearchSortApp {
 		else {
 			System.out.println("Key Not Found");
 		}
-
 	}
-
 }

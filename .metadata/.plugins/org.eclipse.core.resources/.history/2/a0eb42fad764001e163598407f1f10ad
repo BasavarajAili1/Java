@@ -1,0 +1,10 @@
+package com.kodnest.inheritance;
+
+// Example for Multi-Level Inheritance
+public class Vehicle {
+	int regNo;
+	
+	public void move() {
+		System.out.println("Vehicle with number "+regNo+" is moving");
+	}
+}

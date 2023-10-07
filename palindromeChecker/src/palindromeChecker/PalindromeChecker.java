@@ -10,5 +10,4 @@ public class PalindromeChecker {
 		}
 		return rev;
 	}
-
 }

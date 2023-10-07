@@ -1,0 +1,17 @@
+package com.DSABootcamp.SimplePrograms;
+import java.util.Scanner;
+
+// Print fibonacci number of nth number
+public class PrintFibonacciOfGivenNumber {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter N");
+		int n = scan.nextInt();
+		
+		PrintFibonacciNumber(n);
+
+	}
+
+}

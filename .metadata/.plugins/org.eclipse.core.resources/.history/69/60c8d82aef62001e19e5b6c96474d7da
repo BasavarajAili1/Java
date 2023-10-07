@@ -1,0 +1,32 @@
+package com.kodnest.inheritance;
+
+public class Human {
+	String name;
+	int age;
+	float height;
+	
+	public Human() {
+		this("Rajini", 5.8f);
+	}
+	
+	public Human(String name) {
+		this(name, 45);
+	}
+	
+	public Human (String name, float height) {
+		this("Samanta");
+	}
+	
+	public Human (String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public Human (String name, int age, float height) {
+		this();
+		this.name = name;
+		this.age = age;
+		this.height = height;
+	}
+
+}

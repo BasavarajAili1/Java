@@ -1,0 +1,10 @@
+package com.ArrayDSA.leetcode.easy;
+
+public class KidsWithGreatestNumberOfCandies {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -18,7 +18,7 @@ public class BubbleSortApplication {
 		}
 		System.out.println();
 		
-		Sort sort=new Sort();
+		BubbleSort sort=new BubbleSort();
 		sort.bubbleSorting(arr);// Ascending order
 		
 		System.out.print("Array elements after sorting===> ");

@@ -1,0 +1,9 @@
+package com.kodnest.inheritance;
+
+public class Vehicle {
+	int regNo;
+	
+	public void move() {
+		System.out.println("Vehicle with number "+regNo+" is moving");
+	}
+}
