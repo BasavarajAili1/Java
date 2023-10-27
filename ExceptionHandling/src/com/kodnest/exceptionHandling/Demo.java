@@ -7,8 +7,9 @@ public class Demo {
 	public static void main(String[] args) {
 		System.out.println("Connection established.");
 		int[] arr = null;
+		Scanner scan = null;
 		try {
-			Scanner scan = new Scanner(System.in);
+			scan = new Scanner(System.in);
 			System.out.println("Enter 2 numbers for division");
 			int a = scan.nextInt();
 			int b = scan.nextInt();
@@ -38,6 +39,10 @@ public class Demo {
 		catch (Exception e) {
 			System.out.println("Some problem has occured, Please try again");
 		}
-		System.out.println("Connection terminated bye bye..");
+		finally {
+			scan.close();
+			System.out.println("Connection terminated bye bye..");
+		}
+		
 	}
 }
