@@ -1,0 +1,58 @@
+package com.propel.practice;
+
+public class Enemy2DArray1and21 {
+
+	public static void main(String[] args) {
+		String[] input1 = {"0000", "1000", "0002", "0002"};
+		String[] input2 = {"000", "100", "200"};
+		String[] input3 = {"0000", "2010", "0000", "2002"};
+		String token = "f7cqkbo5960d";
+
+		String output1 = ArrayChallenge(input1, token);
+		String output2 = ArrayChallenge(input2, token);
+		String output3 = ArrayChallenge(input3, token);
+		System.out.println(output1);
+		System.out.println(output2);
+		System.out.println(output3);
+	}
+
+	private static String ArrayChallenge(String[] strArr, String token) {
+		int rows = strArr.length;
+		int cols = strArr[0].length();
+		
+		int oneRow = -1, oneCol = -1, twoRow = -1, twoCol = -1;
+		
+		for(int i=0;i<rows;i++) {
+			for(int j=0;j<cols;j++) {
+				if(strArr[i].charAt(j) == '1') {
+					oneRow = i;
+					twoRow = j;
+				}
+				else if(strArr[i].charAt(j) == '2') {
+					twoRow = i;
+					twoCol = j;
+				}
+			}
+		}
+		
+		if(twoRow == -1 || twoCol == -2) {
+			return "0";
+		}
+		
+		int dist1 = Math.min(Math.abs(oneRow - oneCol), rows - Math.abs(oneRow - oneCol));
+		int dist2 = Math.min(Math.abs(twoRow - twoCol), cols - Math.abs(twoRow- twoCol));
+		int res = Math.max(dist1, dist2);
+		System.out.println(res);
+		
+		StringBuilder tokenStr = new StringBuilder(token);
+		tokenStr.reverse();
+		
+		StringBuilder resStr = new StringBuilder(res);
+		resStr.reverse();
+		
+		StringBuilder sb = new StringBuilder();
+		
+		return sb.append(resStr).append(":").append(tokenStr).toString();
+	}
+
+}

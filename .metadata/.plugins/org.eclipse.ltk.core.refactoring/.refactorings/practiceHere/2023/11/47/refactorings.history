@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practiceHere.Demo&apos; to &apos;FibDemo&apos;&#x0D;&#x0A;- Original project: &apos;practiceHere&apos;&#x0D;&#x0A;- Original element: &apos;practiceHere.Demo&apos;&#x0D;&#x0A;- Renamed element: &apos;practiceHere.FibDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Demo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practiceHere{Demo.java[Demo" matchStrategy="1" name="FibDemo" qualified="false" references="true" similarDeclarations="false" stamp="1700485344041" textual="false" version="1.0"/>
+</session>

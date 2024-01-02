@@ -1,0 +1,15 @@
+package com.kodnest.wrapperClasses;
+
+import java.util.ArrayList;
+
+public class WrapperDemo {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		
+		// Auto boxing
+		list1.add(10); // list1.add(new Integer(10)
+		list1.add(20);
+	}
+
+}

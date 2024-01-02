@@ -1,0 +1,24 @@
+Reverse a String in Java
+
+Imagine you are working on a text processing application where you need to reverse a given string. 
+This is a common task in many programming scenarios, such as when processing user input or manipulating text data. 
+Your task is to create a Java program that takes a string as input, reverses it, and provides the reversed string as output.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are developing a text editor, and users want to reverse the order of 
+characters in a sentence for various reasons, such as for fun or to examine the 
+text in a different way. Your program should allow users to input a sentence, 
+and it should return the sentence with its characters reversed.
+
+Test Case : 1
+Expected output :
+!dlrow ,olleH
+Actual output :
+!dlrow ,olleH
+
+Test Case : 2
+Expected output :
+.nuf si gnimmargorp avaJ
+Actual output :
+.nuf si gnimmargorp avaJ

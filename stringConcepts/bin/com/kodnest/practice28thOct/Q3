@@ -1,0 +1,26 @@
+Capitalize the First Letter of Each Word In a Sentence in Java
+
+Imagine you are developing a text Formatting tool as part of a word processing application. 
+Your task is to create a Java program that capitalizes the first letter of each word in all sentence. 
+This program will be useful for users who want to convert text into title case.
+
+Consider a scenario where a user is writing an article or a blog post and wants to ensure that the headings
+and titles are in title case for a more professional appearance. Your program will automate this task for them.
+
+Your task is to write a Java program that takes a sentence as input and capitalizes the First letter of each word in that sentence. 
+The program should consider a word as any sequence of characters separated by spaces or punctuation marks.
+
+
+Examples:
+
+Input:
+the quick brown fox jumped over the lazy dog.
+
+Output:
+Formatted Sentence: The Quick Brown Fox Jumped Over The Lazy Dog.
+
+Input:
+java programming is fun
+
+Output:
+Formatted Sentence: Java Programming Is Fun

@@ -1,0 +1,10 @@
+package com.kodnest.springboot01.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringBoot {
+	public String greet() {
+		return "Hi, this is SpringBoot Project !!!";
+	}
+}

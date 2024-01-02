@@ -1,0 +1,23 @@
+package com.propel.practice;
+
+public class Enemy2DArray1and21 {
+
+	public static void main(String[] args) {
+		String[] input1 = {"0000", "1000", "0002", "0002"};
+		String[] input2 = {"000", "100", "200"};
+		String[] input3 = {"0000", "2010", "0000", "2002"};
+		String token = "f7cqkbo5960d";
+
+		String output1 = ArrayChallenge(input1, token);
+		String output2 = ArrayChallenge(input2, token);
+		String output3 = ArrayChallenge(input3, token);
+		System.out.println(output1);
+		System.out.println(output2);
+		System.out.println(output3);
+	}
+
+	private static String ArrayChallenge(String[] strArr, String token) {
+		return null;
+	}
+
+}

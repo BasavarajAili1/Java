@@ -1,0 +1,18 @@
+package com.kodnest.wrapperClasses;
+
+import java.util.ArrayDeque;
+
+public class BackwardTraversing {
+
+	public static void main(String[] args) {
+		ArrayDeque<Integer> ad = new ArrayDeque<>();
+		ad.add(10);
+		ad.add(200);
+		ad.add(55);
+		ad.add(25);
+		
+		ad.Iterator()
+
+	}
+
+}

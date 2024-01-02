@@ -1,0 +1,19 @@
+Reverse Words at Their Own Position in Java
+
+Imagine you are working on a text processing task, and you need to reverse the order of words in 
+a given string while keeping the words themselves unchanged. Your task is to create a Java program 
+that takes a string as input, reverses the order of words in the string, and provides the modified 
+string as output.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are developing a language translation tool, and you want to reverse the order of words 
+in a sentence to create grammatically correct translations.
+
+Test Case : 1
+Input: This is a test
+Output : test a is This
+
+Test Case : 2
+Input: Java is fun
+Output : fun is Java

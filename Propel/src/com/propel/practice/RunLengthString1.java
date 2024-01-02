@@ -1,0 +1,47 @@
+package com.propel.practice;
+
+
+public class RunLengthString1 {
+
+    public static String StringChallenge(String str, String token) {
+        StringBuilder sb = new StringBuilder();
+
+        int count = 1;
+        for (int i = 0; i < str.length(); i++) {
+            // Check if the current character is the same as the next character
+            if (i + 1 < str.length() && str.charAt(i) == str.charAt(i + 1)) {
+                count++;
+            } else {
+                // Append the count and the character to the compressed string
+                sb.append(count).append(str.charAt(i));
+                count = 1; // Reset count for the next character
+            }
+        }
+        String firstOutput = sb.toString();
+        System.out.println(firstOutput);
+        String tokenAppended = firstOutput+token;
+        System.out.println(tokenAppended);
+        
+        StringBuilder finalStr = new StringBuilder();
+        int count2 = 1;
+        for(int i=0;i<tokenAppended.length();i++) {
+        	if(count2 == 4) {
+        		finalStr.append("-");
+        		count2 = 1;
+        		continue;
+        	}
+        	finalStr.append(tokenAppended.charAt(i));
+        	count2++;
+        }
+        return finalStr.toString();
+    }
+
+    public static void main(String[] args) {
+        String input = "wwwggopp";
+        String token = "ogc1kv7365";
+        String output1 = StringChallenge(input, token);
+        System.out.println(output1);
+        
+    }
+}
+

@@ -1,0 +1,15 @@
+package com.propel.practice;
+
+public class LongestSubstring1 {
+
+	public static void main(String[] args) {
+		String input1 = "helloosannasmith";
+		String input2 = "abcdefgg";
+
+		String output1 = SearchingChallenge(input1);
+		System.out.println(output1);
+		String output2 = SearchingChallenge(input2);
+		System.out.println(output2);
+	}
+
+}

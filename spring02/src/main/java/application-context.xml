@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="l1" class="com.kodnest.bean.Laptop">
+		<property name="serialNumber" value="0011" />
+		<property name="manufacturer" value="DELL" />
+		<property name="cost" value="52500" />
+	</bean>	
+	<bean id="l2" class="com.kodnest.bean.Laptop">
+		<constructor-arg name="serialNumber" value="0012" />
+		<constructor-arg name="manufacturer" value="LENOVO" />
+		<constructor-arg name="cost" value="50000" />
+	</bean>	
+</beans>

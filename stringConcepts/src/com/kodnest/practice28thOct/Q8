@@ -1,0 +1,16 @@
+Remove Duplicate Characters from String in Java
+
+Imagine you are building a text processing tool that requires removing duplicate 
+characters from a given string. Your task is to create a Java program that takes 
+a string as input, removes duplicate characters from it, and provides the 
+resulting string without duplicates.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are developing a program that analyzes text input from users and 
+needs to process the input by removing any duplicate characters to make the 
+analysis more efficient.
+
+Test Case : 1
+Input: hello
+Output : helo

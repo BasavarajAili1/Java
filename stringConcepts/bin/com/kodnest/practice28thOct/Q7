@@ -1,0 +1,22 @@
+Check Palindromic String in Java
+
+Imagine you are developing a text analysis tool that needs to check if a given 
+string is a palindrome. Palindromes are strings that read the same forwards and 
+backwards, like "radar" or "madam." Your task is to create a Java program that 
+takes a string as input, checks if it is a palindrome, and provides a result 
+indicating whether the string is a palindrome or not.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are building a word game where players need to guess palindromic words.
+ Your program should allow players to input a word, and it should inform them 
+ whether the word they entered is a palindrome.
+ 
+Test Case : 1
+Input: radar
+output : The input string is a palindrome.
+
+Test Case : 1
+Input: java
+output :
+The input string is not a palindrome.

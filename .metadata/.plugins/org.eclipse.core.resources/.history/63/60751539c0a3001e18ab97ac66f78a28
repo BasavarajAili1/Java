@@ -1,0 +1,5 @@
+package com.kodnest.springboot03.controller;
+
+public class CrudController {
+
+}

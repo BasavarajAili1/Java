@@ -1,0 +1,48 @@
+public class LongestSubstring {
+
+    public static String SearchingChallenge(String str) {
+        int maxLength = 0;
+        String longestPalindrome = "none";
+
+        for (int i = 0; i < str.length(); i++) {
+            // Find odd length palindromes
+            String oddPalindrome = expandAroundCenter(str, i, i);
+            // Find even length palindromes
+            String evenPalindrome = expandAroundCenter(str, i, i + 1);
+
+            // Check if the odd palindrome is longer than 2 characters
+            if (oddPalindrome.length() > maxLength && oddPalindrome.length() > 2) {
+                maxLength = oddPalindrome.length();
+                longestPalindrome = oddPalindrome;
+            }
+            // Check if the even palindrome is longer than 2 characters
+            if (evenPalindrome.length() > maxLength && evenPalindrome.length() > 2) {
+                maxLength = evenPalindrome.length();
+                longestPalindrome = evenPalindrome;
+            }
+        }
+
+        return longestPalindrome;
+    }
+
+    // Helper function to expand around a center and find a palindrome
+    private static String expandAroundCenter(String str, int left, int right) {
+        while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+            left--;
+            right++;
+        }
+        return str.substring(left + 1, right);
+    }
+
+    public static void main(String[] args) {
+        String input1 = "helloosannasmith";
+        String input2 = "abcdefgg";
+
+        String output1 = SearchingChallenge(input1);
+        System.out.println(output1);
+        String output2 = SearchingChallenge(input2);
+        System.out.println(output2);
+
+        
+    }
+}

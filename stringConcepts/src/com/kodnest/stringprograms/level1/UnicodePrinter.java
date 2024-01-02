@@ -18,7 +18,8 @@ public class UnicodePrinter {
 		//System.out.println(arr);
 		for(int i=0;i<=arr.length-1;i++) {
 			char j=arr[i];
-			
+			int unicode = (int) j;
+			System.out.print(unicode+" ");
 		}
 	}
 }

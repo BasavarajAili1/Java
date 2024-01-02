@@ -1,0 +1,38 @@
+Generate and Display All Substrings in Java
+
+Imagine you are working on a text analysis task, and you need to generate 
+and display all possible substrings of a given string. Your task is to create 
+a Java program that takes a string as input, generates all substrings, and provides them as output.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are developing a search engine that needs to index all possible 
+substrings of web page content. You need a program to generate these substrings 
+efficiently.
+
+Test Case : 1
+Input: abc
+Output:
+a
+ab
+abc
+b
+bc
+c
+
+Input: java
+Output:
+j
+ja
+jav
+java
+a
+av
+ava
+v
+va
+a
+
+Question Elaborated Explanation:
+
+A substring is a contiguous sequence of characters within a string. For a given string of length n, there are n(n+1)/2 substrings. Your task is to display all these substrings.

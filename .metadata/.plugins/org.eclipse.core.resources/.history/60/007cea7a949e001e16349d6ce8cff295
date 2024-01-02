@@ -1,0 +1,55 @@
+
+import java.util.*;
+
+public class ScaleBalancing {
+
+    public static String ScaleBalancing(String[] strArr) {
+        // Parse the input string to get left and right weights
+        String[] weights = strArr[0].replaceAll("[\\[\\]]", "").split(", ");
+        int leftWeight = Integer.parseInt(weights[0]);
+        int rightWeight = Integer.parseInt(weights[1]);
+
+        // Parse the list of available weights
+        String[] availableWeightsStr = strArr[1].replaceAll("[\\[\\]]", "").split(", ");
+        int[] availableWeights = new int[availableWeightsStr.length];
+        for (int i = 0; i < availableWeightsStr.length; i++) {
+            availableWeights[i] = Integer.parseInt(availableWeightsStr[i]);
+        }
+
+        // Check if it's already balanced
+        if (leftWeight == rightWeight) {
+            return "";
+        }
+
+        // Try balancing with a single weight from the available list
+        for (int weight : availableWeights) {
+            if (leftWeight + weight == rightWeight || rightWeight + weight == leftWeight) {
+                return Integer.toString(weight);
+            }
+        }
+
+        // Try balancing with two weights from the available list
+        for (int i = 0; i < availableWeights.length - 1; i++) {
+            for (int j = i + 1; j < availableWeights.length; j++) {
+                int combinedWeight = availableWeights[i] + availableWeights[j];
+                if (leftWeight + combinedWeight == rightWeight || rightWeight + combinedWeight == leftWeight) {
+                    int[] result = {availableWeights[i], availableWeights[j]};
+                    Arrays.sort(result);
+                    return result[0] + "," + result[1];
+                }
+            }
+        }
+
+        return "not possible";
+    }
+
+    public static void main(String[] args) {
+        String[] input1 = {"[3, 4]", "[1, 2, 7, 7]"};
+        String[] input2 = {"[13, 4]", "[1, 2, 3, 6, 14]"};
+        String out1 = ScaleBalancing(input1);
+        String out2 = ScaleBalancing(input2);
+
+        System.out.println(out1);
+        System.out.println(out2);
+    }
+}

@@ -1,0 +1,19 @@
+Longest Unique Substring in Java
+
+Imagine you are working on a text analysis task, and you need to find the longest substring 
+within a given string that contains only unique characters (no character is repeated). 
+Your task is to create a Java program that takes a string as input Finds the longest unique substring, 
+then provides it as output.
+
+To illustrate this problem, consider the Following scenario:
+
+Suppose you are developing a plagiarism detection system, and you want to identify the longest 
+sequence of unique words in a document to determine its uniqueness.
+
+Examples:
+
+Input: abcabcbacab
+Output: abc
+
+Input: javaisfun
+Output: vaisfun

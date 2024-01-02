@@ -1,0 +1,10 @@
+package com.propel.practice;
+
+public class Enemy2DArray1and21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

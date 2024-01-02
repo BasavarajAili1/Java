@@ -1,0 +1,47 @@
+
+public class BitmapHoles {
+
+    public static int bitmapHoles(String[] strArr) {
+        int rows = strArr.length;
+        int cols = strArr[0].length();
+        boolean[][] visited = new boolean[rows][cols];
+        int holes = 0;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (strArr[i].charAt(j) == '0' && !visited[i][j]) {
+                    dfs(strArr, visited, i, j);
+                    holes++;
+                }
+            }
+        }
+
+        return holes;
+    }
+
+    private static void dfs(String[] strArr, boolean[][] visited, int row, int col) {
+        int rows = strArr.length;
+        int cols = strArr[0].length();
+
+        if (row < 0 || row >= rows || col < 0 || col >= cols || visited[row][col] || strArr[row].charAt(col) == '1') {
+            return;
+        }
+
+        visited[row][col] = true;
+
+        dfs(strArr, visited, row + 1, col); // down
+        dfs(strArr, visited, row - 1, col); // up
+        dfs(strArr, visited, row, col + 1); // right
+        dfs(strArr, visited, row, col - 1); // left
+    }
+
+    public static void main(String[] args) {
+    	String[] input1 = {"01111", "01101", "00011", "11110"};
+        String[] input2 = {"01111", "01101", "00011", "11110"};
+        String[] input3 = {"1011", "0010"};
+
+        System.out.println("Output 1: " + bitmapHoles(input1));
+        System.out.println("Output 1: " + bitmapHoles(input2));
+        System.out.println("Output 2: " + bitmapHoles(input3));
+    }
+}

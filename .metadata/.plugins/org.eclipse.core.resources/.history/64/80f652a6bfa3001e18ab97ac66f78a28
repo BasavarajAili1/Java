@@ -1,0 +1,9 @@
+package com.kodnest.springboot03.entities;
+
+public class Student {
+	String id;
+	String name;
+	int marks;
+	
+	
+}

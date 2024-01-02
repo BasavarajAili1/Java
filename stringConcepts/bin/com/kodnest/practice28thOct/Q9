@@ -1,0 +1,21 @@
+Replace Spaces with "99" in Java
+
+Imagine you are working on a text processing task, and you need to replace all the spaces in a 
+given string with the characters "99." Your task is to create a Java program that takes a string 
+as input, replaces all spaces with "99," and provides the modified string as output.
+
+To illustrate this problem, consider the following scenario:
+
+Suppose you are developing a chat application that encodes spaces in messages to ensure they are 
+transmitted correctly over a network. You need to replace spaces with a specific character 
+sequence, "99," for this purpose.
+
+Test Case : 1
+Input : Java programming is fun.
+
+Output : Java99programming99is99fun.
+
+Test Case : 2
+Input : Hello, world!
+
+Output : Hello,99world!

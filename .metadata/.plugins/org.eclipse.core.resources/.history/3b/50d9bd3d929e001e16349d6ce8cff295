@@ -1,0 +1,19 @@
+package com.propel.practice;
+
+public class ScaleBalancing1 {
+
+	public static void main(String[] args) {
+		String[] input1 = {"[3, 4]", "[1, 2, 7, 7]"};
+        String[] input2 = {"[13, 4]", "[1, 2, 3, 6, 14]"};
+        String out1 = scaleBalancing(input1);
+        String out2 = scaleBalancing(input2);
+
+        System.out.println(out1);
+        System.out.println(out2);
+	}
+
+	private static String scaleBalancing(String[] input2) {
+		return null;
+	}
+
+}

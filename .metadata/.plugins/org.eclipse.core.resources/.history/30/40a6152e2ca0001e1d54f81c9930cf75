@@ -1,0 +1,13 @@
+package com.kodnest.springboot02.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CRUDController {
+
+	@GetMapping(value = "create")
+	public String create() {
+		return "CREATED";
+	}
+}

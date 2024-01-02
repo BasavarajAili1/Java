@@ -1,0 +1,23 @@
+package com.propel.practice;
+
+public class BitmapHoles1 {
+
+	public static void main(String[] args) {
+		String[] input1 = {"10111", "10101", "11101", "11111"};
+		String[] input2 = {"01111", "01101", "00011", "11110"};
+		String[] input3 = {"1011", "0010"};
+
+		int out1 = bitmapHoles(input1);
+		int out2 = bitmapHoles(input2);
+		int out3 = bitmapHoles(input3);
+		System.out.println(out1);
+		System.out.println(out2);
+		System.out.println(out3);
+	}
+
+	private static int bitmapHoles(String[] strArr) {
+		int rows
+		return 0;
+	}
+
+}

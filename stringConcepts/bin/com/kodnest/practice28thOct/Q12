@@ -1,0 +1,12 @@
+Reverse Sentence in Java
+
+You are working on a Java program where you need to reverse the words in a sentence. 
+In this scenario, a sentence is a sequence of words separated by spaces. 
+You should reverse the order of the words in the sentence without changing the order of 
+characters within each word.
+
+Write a Java program that takes a sentence as input and reverses the words in it.
+
+Test Case : 1
+Input: This is a test sentence
+Output: sentence test a is This

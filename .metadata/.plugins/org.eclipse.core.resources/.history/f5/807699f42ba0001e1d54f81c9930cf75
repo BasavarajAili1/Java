@@ -1,0 +1,5 @@
+package com.kodnest.springboot02.controller;
+
+public class CRUDController {
+
+}

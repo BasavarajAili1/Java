@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\spring03"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\spring01"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-crud1"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-mapping3"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-mapping2"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-mapping1"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-demo4"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-demo2"/>
+			<item value="E:\Basu Docs\KODNEST\saturdaymarathon\hibernate-demo1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.kodnest"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="spring04"/>
+			<item value="spring03"/>
+			<item value="spring02"/>
+			<item value="spring01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Basu Docs\KODNEST\JAVA\Springboot\Spring Boot 02\springboot02"/>
+			<item value="E:\Basu Docs\KODNEST\JAVA\Springboot\springboot01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

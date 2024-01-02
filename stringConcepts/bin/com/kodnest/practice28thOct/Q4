@@ -1,0 +1,20 @@
+Create a String from a Character Array in Java using StringBuffer
+
+You are working on a Java program that requires creating a string from a 
+character array. In this scenario, you are allowed to use a StringBuffer to 
+achieve this task.
+
+Write a Java program that takes a character array as input and creates a 
+string from the characters in the array using a StringBuffer.
+
+Test Case : 1
+Expected output :
+Created string: H e l l o
+Actual output :
+Created string: H e l l o
+
+Test Case : 2
+Expected output :
+Created string: J a v a
+Actual output :
+Created string: J a v a

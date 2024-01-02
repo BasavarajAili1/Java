@@ -1,0 +1,13 @@
+Java Character Extractor
+
+You are developing a Java program that requires extracting a character at a specific index within a given string. The index you want to access may vary, so you need a method to retrieve the character efficiently.
+
+Write a Java program that takes a string an index as input and returns the at the specified index within the string.
+
+Examples:
+Input:
+Hello, World! 
+5
+
+Output: 
+Character at index 5: ,

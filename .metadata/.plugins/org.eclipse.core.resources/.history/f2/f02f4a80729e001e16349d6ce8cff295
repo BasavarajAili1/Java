@@ -1,0 +1,125 @@
+//import java.util.*;
+//
+//public class BitmapHoles {
+//
+//    public static int BitmapHoles(String[] strArr) {
+//        int rows = strArr.length;
+//        int cols = strArr[0].length();
+//        int[][] bitmap = new int[rows][cols];
+//
+//        for (int i = 0; i < rows; i++) {
+//            for (int j = 0; j < cols; j++) {
+//                bitmap[i][j] = Character.getNumericValue(strArr[i].charAt(j));
+//            }
+//        }
+//
+//        int holeCount = 0;
+//        Set<String> hole = new HashSet<>();
+//        Set<String> checked = new HashSet<>();
+//        boolean flag = true;
+//
+//        for (int i = 0; i < rows; i++) {
+//            for (int j = 0; j < cols; j++) {
+//                Stack<String> stack = new Stack<>();
+//                stack.push(i + "," + j);
+//
+//                while (!stack.isEmpty()) {
+//                    String[] coordinates = stack.pop().split(",");
+//                    int x = Integer.parseInt(coordinates[0]);
+//                    int y = Integer.parseInt(coordinates[1]);
+//
+//                    String currentCoords = x + "," + y;
+//
+//                    if (!checked.contains(currentCoords)) {
+//                        checked.add(currentCoords);
+//
+//                        if (bitmap[x][y] == 0 && !hole.contains(currentCoords)) {
+//                            hole.add(currentCoords);
+//                            if (flag) {
+//                                holeCount++;
+//                                flag = false;
+//                            }
+//                            if (x - 1 >= 0 && !checked.contains((x - 1) + "," + y)) {
+//                                stack.push((x - 1) + "," + y);
+//                            }
+//                            if (x + 1 < rows && !checked.contains((x + 1) + "," + y)) {
+//                                stack.push((x + 1) + "," + y);
+//                            }
+//                            if (y - 1 >= 0 && !checked.contains(x + "," + (y - 1))) {
+//                                stack.push(x + "," + (y - 1));
+//                            }
+//                            if (y + 1 < cols && !checked.contains(x + "," + (y + 1))) {
+//                                stack.push(x + "," + (y + 1));
+//                            }
+//                        }
+//                    }
+//                }
+//                flag = true;
+//            }
+//        }
+//        return holeCount;
+//    }
+//
+//    public static void main(String[] args) {
+//        String[] input1 = {"10111", "10101", "11101", "11111"};
+//        String[] input2 = {"01111", "01101", "00011", "11110"};
+//        String[] input3 = {"1011", "0010"};
+//
+//        System.out.println("Output 1: " + BitmapHoles(input1));
+//        System.out.println("Output 2: " + BitmapHoles(input2));
+//        System.out.println("Output 3: " + BitmapHoles(input3));
+//    }
+//}
+
+import java.util.*;
+
+public class BitmapHoles {
+
+    public static int BitmapHoles(String[] strArr) {
+        int rows = strArr.length;
+        int cols = strArr[0].length();
+        int[][] bitmap = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                bitmap[i][j] = strArr[i].charAt(j) - '0'; // Convert char to integer
+            }
+        }
+
+        int holeCount = 0;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (bitmap[i][j] == 0) {
+                    holeCount++;
+                    fillHole(bitmap, i, j);
+                }
+            }
+        }
+
+        return holeCount;
+    }
+
+    private static void fillHole(int[][] bitmap, int row, int col) {
+        if (row < 0 || row >= bitmap.length || col < 0 || col >= bitmap[0].length || bitmap[row][col] != 0) {
+            return;
+        }
+
+        bitmap[row][col] = 1;
+
+        fillHole(bitmap, row - 1, col); // up
+        fillHole(bitmap, row + 1, col); // down
+        fillHole(bitmap, row, col - 1); // left
+        fillHole(bitmap, row, col + 1); // right
+    }
+
+    public static void main(String[] args) {
+        String[] input1 = {"01111", "01101", "00011", "11110"};
+        String[] input2 = {"1011", "0010"};
+        String[] input3 = {"10111", "10101", "11101", "11111"};
+
+        System.out.println("Output 1: " + BitmapHoles(input1));
+        System.out.println("Output 2: " + BitmapHoles(input2));
+        System.out.println("Output 3: " + BitmapHoles(input3));
+    }
+}

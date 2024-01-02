@@ -1,0 +1,10 @@
+package com.kodnest.wrapperClasses;
+
+public class WrapperDemo {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list1 = new ArrayList();
+
+	}
+
+}
